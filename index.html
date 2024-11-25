@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Beagle Blog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background-color: #d3d3d3;
+            padding: 20px;
+            border: 1px solid #ccc;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .main-content h1 {
+            text-align: center;
+            text-decoration: underline;
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .main-content p {
+            text-align: justify;
+            line-height: 1.6;
+            margin-bottom: 10px;
+        }
+
+        .main-content a {
+            text-decoration: underline;
+            color: black;
+            display: block;
+            text-align: right;
+            font-size: 16px;
+        }
+
+        .image-section,
+        .trivia-section {
+            background-color: #d3d3d3;
+            margin-top: 20px;
+            padding: 20px;
+            border: 1px solid #ccc;
+        }
+
+        .image-section {
+            text-align: center;
+        }
+
+        .image-section img {
+            width: 100%;
+            max-width: 500px;
+            height: auto;
+            margin-top: 10px;
+        }
+
+        .image-section h2,
+        .trivia-section h2 {
+            text-align: center;
+            text-decoration: underline;
+            margin-bottom: 15px;
+        }
+
+        .image-section a {
+            text-decoration: underline;
+            color: black;
+            display: block;
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        .trivia-section ol {
+            list-style-type: decimal;
+            margin-left: 20px;
+            line-height: 1.6;
+        }
+
+        .content-wrapper {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+        }
+
+        .content-wrapper > div {
+            flex: 1;
+            padding: 10px;
+            border: 1px solid #ccc;
+            background-color: #e6e6e6;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <section class="main-content">
+            <h1>The Beagle Blog</h1>
+            <p>
+                The Beagle is a breed of small scent hound, similar in appearance to the much larger foxhound. 
+                The beagle was developed primarily for hunting hare, known as beagling. Possessing a great sense of 
+                smell and superior tracking instincts, the beagle is the primary breed used as a detection dog for 
+                prohibited agricultural imports and foodstuffs in quarantine around the world. The beagle is 
+                intelligent and is a popular pet due to its size, good temper, and a lack of inherited health problems.
+            </p>
+            <a href="https://en.wikipedia.org/wiki/Beagle" target="_blank">Read more</a>
+        </section>
+
+        <div class="content-wrapper">
+            <div class="image-section">
+                <h2>Images</h2>
+                <img src="https://cdn.britannica.com/16/234216-050-C66F8665/beagle-hound-dog.jpg" alt="Beagle Dog">
+                <a href="https://www.google.com/search?q=beagle&rlz=1C5CHFA_enUS944US945&sxsrf=ALiCzsYi_xLzuX5-mgRt-U2UMiiEwhaCTA:1672839794160&source=lnms&sa=X&ved=2ahUKEwiat8ntha78AhVnDbcAHX7UCYYQ_AUoAXoECAEQAw&biw=1629&bih=894&dpr=2.2&udm=2#vhid=TxZas2ani8v5yM&vssid=mosaic" target="_blank">More Images</a>
+            </div>
+
+            <div class="trivia-section">
+                <h2>Trivia</h2>
+                <ol>
+                    <li>Height - 13–16 in (33–41 cm)</li>
+                    <li>Weight - 22–25 lb (10.0–11.3 kg)</li>
+                    <li>Coat - Short haired, hard coat of medium length</li>
+                    <li>Colour - Tricolor or white in combination with black & tan/brown or brown/tan</li>
+                    <li>Life span - 12–15 years</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
